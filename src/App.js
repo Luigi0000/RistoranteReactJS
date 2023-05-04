@@ -30,10 +30,7 @@ class App extends Component {
     this.setState({ cards });
 
   }
-  resetCards = cards => {
-    this.setState({ cards });
-  }
-
+ 
   render() {
     return (
       <>
